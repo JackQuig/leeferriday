@@ -127,6 +127,26 @@ img {
   font-style: italic;
 }
 
+.group:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+@media (max-width: 767px) {
+  .text, .images {
+    float: none;
+    width: 100%;
+  }
+}
+.maintext {
+  float: left;
+  width: 70%;
+}
+
+#leeimage {
+  float: right;
+  width: 30%;
+}
 .projects-section {
   text-align:center;
   padding: 10rem 2rem;
