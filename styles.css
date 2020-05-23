@@ -1,10 +1,5 @@
 :root {
-  --main-white: #f0f0f0;
-  --main-red: #be3144;
   --main-blue: #556a9f;
-  --main-gray: #303841;
-  --main-green: #00ff00;
-  --main-black: #0f0f0f;
   --pale-blue: #e6edff;
 }
 * {
@@ -41,7 +36,7 @@ body {
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   line-height: 1.4;
-  color: var(--main-black);
+  color: black;
 }
 
 h1,
@@ -65,7 +60,7 @@ ul {
 
 a {
   text-decoration: none;
-  color: var(--main-black);
+  color: black;
 }
 
 .nav {
@@ -102,7 +97,7 @@ a {
 }
 
 .nav-list a:hover {
-  background: var(--main-white);
+  background: white;
 }
 
 #welcome-section {
@@ -130,4 +125,11 @@ a {
 
 footer {
   background-color: var(--pale-blue);
+}
+
+.navbar-slogan {
+  font-size: 2.5rem;
+  display: flex;
+  align-items: center;
+  margin-left: 10px;
 }
