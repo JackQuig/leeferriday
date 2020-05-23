@@ -1,6 +1,7 @@
 :root {
   --main-blue: #556a9f;
   --pale-blue: #e6edff;
+  background-color: var(--pale-blue);
 }
 * {
   margin: 0;
@@ -107,7 +108,6 @@ a {
   align-items: left;
   width: 100%;
   height: 100vh;
-  background-color: var(--pale-blue);
   }
 
 #welcome-section > p {
@@ -123,9 +123,6 @@ a {
  margin-left: 30px;
 }
 
-footer {
-  background-color: var(--pale-blue);
-}
 
 .navbar-slogan {
   font-size: 2.5rem;
