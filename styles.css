@@ -65,7 +65,7 @@ a {
 
 .nav {
   display:flex;
-  justify-content: flex-end;
+  justify-content: space-between;
   position: fixed; 
   top: 0; 
   left: 0;
