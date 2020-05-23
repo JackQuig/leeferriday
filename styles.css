@@ -68,11 +68,6 @@ a {
   color: var(--main-black);
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
 .nav {
   display:flex;
   justify-content: flex-end;
@@ -110,7 +105,6 @@ img {
   background: var(--main-white);
 }
 
-
 #welcome-section {
   display: flex;
   flex-direction: column;
@@ -125,80 +119,15 @@ img {
   font-size: 3rem;
   font-weight: 200;
   font-style: italic;
-}
-
-.group:after {
-  content: "";
-  display: table;
-  clear: both;
-}
-@media (max-width: 767px) {
-  .text, .images {
-    float: none;
-    width: 100%;
-  }
-}
-.maintext {
-  float: left;
   width: 70%;
+  padding-left: 10%;
 }
 
 #leeimage {
-  float: right;
-  width: 30%;
-}
-.projects-section {
-  text-align:center;
-  padding: 10rem 2rem;
-  background: var(--main-blue);
+ float: right;
+ margin-left: 30px;
 }
 
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
-.contact-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  text-align: center;
-  width: 100%;
-  height: 80vh;
-  padding: 0 2rem;
-  background: var(--main-gray);
-}
-
-.contact-section-header > h2 {
-  font-size: 6rem;
-}
-
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
-  }
-}
-
-.contact-section-header > p {
-  font-style: italic;
-}
-
-.contact-links {
-  display: flex;
-  justify-content: center;
-  width: 100%;
-  max-width: 980px;
-  margin-top: 4rem;
-  flex-wrap: wrap;
-}
-
-.contact-details {
-  font-size: 2.4rem;
-  text-shadow: 2px 2px 1px #1f1f1f;
-  transition: transform 0.3s ease-out;
-}
-
-.contact-details:hover {
-  transform: translateY(8px);
+footer {
+  background-color: var(--pale-blue);
 }
