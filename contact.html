@@ -1,5 +1,6 @@
 <title>Lee Ferriday Consultant</title>
 <link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="contact.css">
 <nav id="navbar" class="nav">
    <p class="navbar-slogan">Improvement through partnership</p>
 	<ul class="nav-list">
@@ -15,7 +16,18 @@
 	</ul>
 </nav>
 
-<footer>
+<form id="survey-form">
+	<label id="name-label">Name:</label>
+	<input id="name" type="text" placeholder="John Smith" required><br>
+		<label id="email-label">Email:</label>
+	<input id="email" type="email" placeholder="johnsmith@email.co.uk" required="email">
+	  <br>
+	  <label id="subject-label">Subject:</label>
+	  <input id="subject" type="text" placeholder="Enquiry" required="text"><br>
+	  <label id="message-label">Message:</label>
+	<input id="message" type="text" placeholder="I would like to contact you because..." required="text">
+
+<footer class="footer">
 	<p>
 		Created by Jack McQuiggin 2020
 	</p>

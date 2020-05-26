@@ -36,7 +36,7 @@ body {
   font-family: calibri, sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
-  line-height: 1.4;
+  line-height: 2;
   color: black;
 }
 
@@ -101,32 +101,16 @@ a {
   background: white;
 }
 
-#welcome-section {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: left;
-  width: 100%;
-  height: 100vh;
-  }
-
-#welcome-section > p {
-  font-size: 3rem;
-  font-weight: 200;
-  font-style: italic;
-  width: 70%;
-  padding-left: 10%;
-}
-
-#leeimage {
- float: right;
- margin-left: 30px;
-}
-
-
 .navbar-slogan {
   font-size: 2.5rem;
   display: flex;
   align-items: center;
   margin-left: 10px;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  left: 0px;
+  bottom: 0px;
 }
