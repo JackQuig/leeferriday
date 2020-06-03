@@ -3,31 +3,39 @@
 <nav id="navbar" class="nav">
    <p class="navbar-slogan">Improvement through partnership</p>
 	<ul class="nav-list">
-	  <li>
-		<a href="##index page##">Home</a>
-	  </li>
-	  <li>
-		<a href="###about page##">About</a>
-	  </li>
-	  <li>
-		<a href="###contact page##">Contact me</a>
-	  </li>
+		<li>
+			<a href="http://leeferriday.co.uk">Home</a>
+		  </li>
+		  <li>
+			<a href="http://about.leeferriday.co.uk">About</a>
+		  </li>
+		  <li>
+			<a href="http://contact.leeferriday.co.uk">Contact me</a>
+		  </li>
 	</ul>
 </nav>
 
-<form id="survey-form">
+<form id="survey-form" action="contact.php" method="post">
 	<label id="name-label">Name:</label>
-	<input id="name" type="text" placeholder="John Smith" required><br>
+	<input id="name" type="text" placeholder="John Smith" required size="30"><br>
 		<label id="email-label">Email:</label>
 	<input id="email" type="email" placeholder="johnsmith@email.co.uk" required="email">
 	  <br>
 	  <label id="subject-label">Subject:</label>
 	  <input id="subject" type="text" placeholder="Enquiry" required="text"><br>
 	  <label id="message-label">Message:</label>
-	<input id="message" type="text" placeholder="I would like to contact you because..." required="text">
-
+	<textarea rows="5" id="message" type="text" placeholder="I would like to contact you because..." required="text"></textarea>
+<br><input type="submit" value="Submit"></form>
 <footer class="footer">
 	<p>
 		Created by Jack McQuiggin 2020
 	</p>
 </footer>
+<script language="JavaScript">
+	var frmvalidator  = new Validator("survey-form");
+	frmvalidator.addValidation("name","req","Please provide your name");
+	frmvalidator.addValidation("email","req","Please provide your email");
+	frmvalidator.addValidation("email","email",
+	  "Please enter a valid email address");
+	  frmvalidator.addValidation("message","req","Please write a message");
+	</script>
