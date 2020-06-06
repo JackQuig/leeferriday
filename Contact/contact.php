@@ -1,5 +1,4 @@
 <?php
-
 if(isset($_POST['Submit'])) {
     $name = $_POST['name'];
     $email = $_POST['email'];
@@ -32,7 +31,7 @@ $txt = "You have received an e-mail from ".$name.".\n\n".$message;
 		  </li>
 	</ul>
 </nav>
-<p>
-    Thank you for contacting us.
-</p>
+<div id="welcome-section" >
+	<h1 class="maintext"><br><br>Thank you for contacting.</h1>
+</div>
 </html>
