@@ -125,14 +125,10 @@ html {
 #survey-form {
   display: flex;
   flex-direction: column;
-  justify-content: center;
-  margin-left: 10%;
-  align-items: left;
-  width: 200px;
-  height: 100vh;
+  align-items: center;
     }
 
-  #message {
-    display: flex;
-    width: 500px;
-  }
+    .input {
+      width: 500px;
+    }
+

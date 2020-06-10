@@ -114,3 +114,7 @@ font-style: italic;
 width: 70%;
 padding-left: 10%;
 }
+
+#leeimage {
+  float: right;
+}

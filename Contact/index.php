@@ -17,21 +17,19 @@
 		  </li>
 	</ul>
 </nav>
-
+<div id="welcome-section" >
+	<h1 class="maintext"><br><br>Lee Ferriday</h1>
+	<h2 class="maintext">Contact us below for all enquiries</h2>
+</div>
 <form id="survey-form" action="contact.php" method="post">
 	<label id="name-label">Name:</label>
-	<input name="name" type="text" placeholder="John Smith" required size="30"><br>
+	<input class="input" name="name" type="text" placeholder="John Smith"><br>
 		<label id="email-label">Email:</label>
-	<input name="email" type="email" placeholder="johnsmith@email.co.uk" required="email">
+	<input class="input" name="email" type="email" placeholder="johnsmith@email.co.uk" required="email">
 	  <br>
 	  <label id="subject-label">Subject:</label>
-	  <input name="subject" type="text" placeholder="Enquiry" required="text"><br>
+	  <input class="input" name="subject" type="text" placeholder="Enquiry" required="text"><br>
 	  <label id="message-label">Message:</label>
-	<textarea rows="5" name="message" type="text" placeholder="I would like to contact you because..." required="text"></textarea>
+	<textarea class="input" id="messagearea" rows="5" name="message" type="text" placeholder="I would like to contact you because..." required="text"></textarea>
 <br><button type="submit" value="Submit">Submit</button></form>
-<footer class="footer">
-	<p>
-		Created by Jack McQuiggin 2020
-	</p>
-</footer>
 </html>
