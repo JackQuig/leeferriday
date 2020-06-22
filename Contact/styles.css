@@ -2,7 +2,6 @@
 html {
   background-color: #e6edff;
   box-sizing: border-box;
-  font-size: 62.5%;
   scroll-behavior: smooth;
   }
   
@@ -13,32 +12,18 @@ html {
     font-size: 150%;
   }
 
-  @media (max-width: 75em) {
+  @media (min-width: 75em) {
   html {
-    font-size: 60%;
+    font-size: 62.5%;
   }
   }
   
-  @media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-  }
-  }
-  
-  @media (max-width: 28.75em) {
-  html {
-    font-size: 55%;
-  }
-  }
-  
+
   body {
   font-family: calibri, sans-serif;
   font-size: 1.8rem; /* 18px */
   font-weight: 400;
   color: black;
-  background-image: url(Lee\ with\ pupils.jpg);
-  background-repeat: no-repeat;
-  background-size: 100%;
   }
   
   h1,
@@ -75,7 +60,7 @@ html {
   
   .nav-list {
   display: flex; 
-  margin-right: 2rem;
+  margin-right: 20%;
   list-style: none;
   }
   
@@ -103,7 +88,7 @@ html {
   font-size: 2.5rem;
   display: flex;
   align-items: center;
-  margin-left: 10px;
+  margin-left: 20%;
   color: white;
   }
   
